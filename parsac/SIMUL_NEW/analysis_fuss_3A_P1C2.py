@@ -81,8 +81,8 @@ for i, (dx, dc) in enumerate(combinations):
 	else:
 		ax.scatter(dx, dc, color="gold", s=point_size, rasterized=scatter_rasterized)
 
-ax.set_xlim(0.0, 0.7)
-ax.set_ylim(0.0, 0.7)
+ax.set_xlim(0.05, 0.6)
+ax.set_ylim(0.0, 0.6)
 ax.set_box_aspect(1)
 ax.tick_params(axis="both", which="major", labelsize=24)
 

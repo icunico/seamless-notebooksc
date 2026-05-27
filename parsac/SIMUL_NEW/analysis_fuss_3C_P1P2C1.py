@@ -82,7 +82,7 @@ for i, (dx, dc) in enumerate(combinations):
 		ax.scatter(dx, dc, color="gold", s=point_size, rasterized=scatter_rasterized)
 
 # Same layout requested for this series.
-ax.set_xlim(0.0, 1.7)
+ax.set_xlim(0.05, 1.7)
 ax.set_ylim(0.0, 0.4)
 ax.set_box_aspect(1)
 ax.tick_params(axis="both", which="major", labelsize=24)
