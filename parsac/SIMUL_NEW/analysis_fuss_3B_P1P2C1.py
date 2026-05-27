@@ -82,7 +82,7 @@ def build_plot(input_pickle, output_stem):
 
 	# Requested layout for link P2 only.
 	ax.set_xlim(0.05, 1.6)
-	ax.set_ylim(0.0, 0.4)
+	ax.set_ylim(0.05, 0.4)
 	ax.set_box_aspect(1)
 	ax.tick_params(axis="both", which="major", labelsize=24)
 
